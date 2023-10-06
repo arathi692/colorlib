@@ -23,11 +23,69 @@ img{
 
 
 }
-.free{
-    border-radius: 50%;
-    width:30%;
-    
+
+
+.bi-truck::before{
+     font-size: 60px;
+     background-color: pink;
+     width:100px;
+     height: 100px;
+     border-radius:50%;
+     padding-top: 20px;
+     padding-left: 20px;
+     margin-top: 30px;
 }
-.table{
+.bi-emoji-sunglasses::before{
+    font-size: 60px;
+    background-color: rgb(223, 171, 76);
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.bi-stack::before{
+    font-size: 60px;
+    background-color: rgb(145, 177, 245);
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px; 
+}
+.bi-telephone-fill::before{
+    font-size: 60px;
+    background-color: rgb(248, 229, 143);
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px; 
+}
+.one{
+    background-image: url('../images/7.avif');
+    height:400px;
+}
+.two{
+    background-image: url('../images/8.jpg');
+    height:400px;
+}
+.three{
+    background-image: url('../images/9.avif');
+    height:400px;
+}
+.four{
+    background-image: url('../images/12.webp');
+    background-position: bottom center;
+    background-size: contain;
+    height:400px;
+    background-repeat: no-repeat;
+
+}
+.five{
+    background-image: url('../images/10.jpg');
     height:400px;
 }

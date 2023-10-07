@@ -65,30 +65,7 @@ img{
     padding-left: 20px;
     margin-top: 30px; 
 }
-.one{
-    background-image: url('../images/7.avif');
-    height:400px;
-}
-.two{
-    background-image: url('../images/8.jpg');
-    height:400px;
-}
-.three{
-    background-image: url('../images/9.avif');
-    height:400px;
-}
-.four{
-    background-image: url('../images/12.webp');
-    background-position: bottom center;
-    background-size: contain;
-    height:400px;
-    background-repeat: no-repeat;
 
-}
-.five{
-    background-image: url('../images/10.jpg');
-    height:400px;
-}
 
 .img {
     background-size: cover;

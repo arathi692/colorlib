@@ -6,7 +6,7 @@ img{
     color: aliceblue;
 }
 .vege{
-    color:rgb(39, 136, 39);
+    color:rgba(114, 224, 114,0.5);
 
 }
 .fresh{
@@ -27,7 +27,7 @@ img{
 
 .bi-truck::before{
      font-size: 60px;
-     background-color: pink;
+     background-color: rgba(223, 167, 176,0.5);
      width:100px;
      height: 100px;
      border-radius:50%;
@@ -37,7 +37,7 @@ img{
 }
 .bi-emoji-sunglasses::before{
     font-size: 60px;
-    background-color: rgb(223, 171, 76);
+    background-color: rgba(223, 171, 76,0.5);
     width:100px;
     height: 100px;
     border-radius:50%;
@@ -47,7 +47,7 @@ img{
 }
 .bi-stack::before{
     font-size: 60px;
-    background-color: rgb(145, 177, 245);
+    background-color: rgba(145, 177, 245,0.5);
     width:100px;
     height: 100px;
     border-radius:50%;
@@ -57,7 +57,7 @@ img{
 }
 .bi-telephone-fill::before{
     font-size: 60px;
-    background-color: rgb(248, 229, 143);
+    background-color: rgba(248, 229, 143,0.5);
     width:100px;
     height: 100px;
     border-radius:50%;
@@ -83,7 +83,9 @@ img{
 
 
    .wrap .text {
-    background: #82ae46; }
+    background: #82ae46; 
+ height: 40px;
+   }
      
        
  
@@ -91,4 +93,13 @@ img{
  .wrap-2 .text {
 
   width: 100%;
+}
+.fruit{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+   
+}
+.product{
+    color: #82ae46;
 }

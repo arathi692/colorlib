@@ -103,3 +103,32 @@ img{
 .product{
     color: #82ae46;
 }
+.bell{
+    text-align: center;
+   
+}
+.bell1{
+    text-align: center;
+    color: #82ae46;
+    
+}
+.mar{
+    border-color: rgba(177, 166, 166, 0.5);
+    border-width: 1px;
+    border-style: solid;
+}
+.deal{
+    background-image: url('../images/deal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+}
+.best{
+    color: #82ae46;
+}
+.spinach
+{
+    color: #82ae46;
+    font-style: italic;
+}

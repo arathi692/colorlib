@@ -6,7 +6,7 @@ img{
     color: aliceblue;
 }
 .vege{
-    color:rgba(114, 224, 114,0.5);
+    color:rgba(81, 236, 81, 0.5);
 
 }
 .fresh{
@@ -141,3 +141,33 @@ img{
 .our{
     font-style: oblique;
 }
+
+
+
+  
+  #countdown li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #82ae46;
+    padding-right: 40px;
+  }
+  
+  #countdown li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  
+  @media all and (max-width: 768px) {
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }

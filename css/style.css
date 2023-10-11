@@ -2,12 +2,13 @@ img{
     width:100%
 }
 .details{
-    background-color: rgb(102, 235, 102);
+    background-color: #82ae46;
     color: aliceblue;
 }
 .vege{
-    color:rgba(81, 236, 81, 0.5);
-
+    color:#82ae46;
+    font-weight: 800;
+    
 }
 .fresh{
     background-image: url('../images/img2.jpg');
@@ -159,6 +160,7 @@ img{
     display: block;
     font-size: 4.5rem;
   }
+
   
   
   @media all and (max-width: 768px) {
@@ -171,3 +173,8 @@ img{
       font-size: calc(3.375rem * var(--smaller));
     }
   }
+.nav-item
+{
+    font-size:11px;
+
+}

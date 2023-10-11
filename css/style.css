@@ -4,6 +4,8 @@ img{
 .details{
     background-color: #82ae46;
     color: aliceblue;
+    font-size:12px;
+    letter-spacing: 1px;
 }
 .vege{
     color:#82ae46;
@@ -11,19 +13,21 @@ img{
     
 }
 .fresh{
-    background-image: url('../images/img2.jpg');
+    background-image: url('../images/bg_2.jpg');
    
     background-repeat: no-repeat;
-   
+    background-position: center center;
     background-size: cover;
-  min-height: 600px;
+  height: 650px;
   text-align: center;
   color: aliceblue;
   padding-top: 200px;
   font-size: 55px;
+  position:relative;
 
 
 }
+
 
 
 .bi-truck::before{
@@ -176,5 +180,6 @@ img{
 .nav-item
 {
     font-size:11px;
+    
 
 }

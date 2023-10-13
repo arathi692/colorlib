@@ -16,21 +16,19 @@ img{
     
 }
 .fresh{
-    background-image: url('../images/bg_2.jpg');
-   
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  height: 650px;
-  text-align: center;
-  color: aliceblue;
-  padding-top: 200px;
-  font-size: 55px;
-  position:relative;
-
-
+    height:650px;
+    
+}
+.fresh1{
+    transform: translateY(-75%);
+}
+.fresh2{
+    transform: translateY(-50%);
 }
 
+.carousel-caption{
+   bottom:45rem !important;
+}
 
 
 .bi-truck::before{
@@ -200,5 +198,14 @@ img{
    
    
     border-left: 2px solid #82ae46;
-   
+    
 }
+.bo{
+    
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+}
+
+.h1size h1{ font-size: 30px;}
+
+.h1size i{ padding-right: 15px;}

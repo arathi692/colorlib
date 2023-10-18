@@ -153,6 +153,9 @@ img{
     border-width: 1px;
     border-style: solid;
 }
+.newP{
+  
+}
 .deal{
     background-image: url('../images/deal.jpg');
     background-repeat: no-repeat;
@@ -375,7 +378,7 @@ hr{
        
     }
     .Subscribe1{
-        background-color: rgba(187, 179, 179, 0.5);
+        background-color: rgba(224, 219, 219, 0.5);
         padding-bottom: 50px;
       
         
@@ -383,15 +386,19 @@ hr{
 
     
       
-      .email {
+      /* .email {
         position: relative;
         border: 1px solid transparent;
         background-color: whitesmoke;
         border-radius: 5px;
         height: 50px;
         width:50px;
+      } */
+      .btn-outline-secondary{
+        color:white;
+        background-color: #82ae46;
+       
       }
-      
       input {
         all: unset;  
         width: 50%;
@@ -446,4 +453,17 @@ hr{
         background: #fff;
         border: 2px solid #01b0f8;
         margin: 0 5px;
+    }
+    .bi-twitter{
+      font-size: 20px;
+    }
+    .bi-facebook{
+      font-size: 20px;
+
+    }
+    .bi-instagram{
+      font-size: 20px;
+    }
+    .phone{
+      list-style: none;
     }

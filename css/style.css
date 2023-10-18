@@ -467,3 +467,19 @@ hr{
     .phone{
       list-style: none;
     }
+    
+    .con{
+      padding-top: 20px;
+      width:40px;
+      font-size: 18px;
+      
+      
+    }
+    .side{
+      padding-top: 20px;
+      display: table-cell;
+      vertical-align: top;
+    }
+    .rights{
+      padding-top: 50px;
+    }

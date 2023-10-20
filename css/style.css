@@ -535,3 +535,27 @@ hr{
     .rights{
       padding-top: 50px;
     }
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+      #countdown li {
+        display: inline-block;
+        font-size: 0.3em;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: uppercase;
+        color: #82ae46;
+        padding-right: 40px;
+      }
+      
+      #countdown li span {
+        display: block;
+        font-size: 1.5rem;
+      } .h1size h1{
+        font-size: 14px;
+       }
+   
+   .h1size i{
+        padding-right: 15px;
+       }
+
+     }
+     
